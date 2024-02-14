@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+    </style>
+</head>
+
+<body
+    style="background-color:black; display: flex; justify-content: center; align-items: center; width: 100%; height: 100vh;">
+    <button ondblclick="greet()" onclick="color()" style="   color: red;
+    height: 6em;
+    width: 9em;
+    border-radius: 50%;
+    font-family: cursive;
+    font-weight: bold">Touch Me</button>
+    <div id="contaner" style="display: none;">
+
+
+        <div id="toble" style="background-color: black; color:red">
+
+            <div>
+                <img src="./images-removebg-preview.png" style="    height: 30em;
+
+    width: 65em;">
+
+                <div id="image" style=" width: 26em;
+    background: url(./images-removebg-preview.png) repeat;
+    background-image: r;
+    background: no-repeat;
+    position: absolute;
+    top: 5em;
+        top: 11em;
+    left: 36em;">
+                    <p style="color: white;">Hello Swetha,
+                        Good evening Swetha, You might be excited what and where is this letter is from.
+                        A team with love and respect writes this letter to appreciate you for hosting this Valentine's
+                        day
+                        event in our Brototype Coimbatore camp. Honestly we have to say this only our brocamp is doing
+                        different
+                        activites on feb 14 compared with other institutes where they do couple dance and common
+                        programes and looking for their valentine is which has been practised for decades. As we are'nt
+                        committed we felt blue
+                        and weird from
+                        morning by seeing couples in roads and parks but you made us to think like we can be happy even
+                        in
+                        feb 14 by being single. You know what "You are such a sweet trainer ever we got". We all expect
+                        this
+                        same energy from you in every upcoming event followed by valentine's day.
+
+                        Thank you
+                        your's sincerely
+                        Team 4</p>
+
+
+                    <button onclick="image()" style="   color: red;
+                            height: 6em;
+                            width: 9em;
+                            border-radius: 50%;
+                            font-family: cursive;
+                            font-weight: bold">Touch Me</button>
+                    <div id="contaner" style="display: none;">
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        <div id="new" style="display: none;">
+            <img src="./css-valentine-day-card.gif">
+        </div>
+        <script>
+
+            function image() {
+                document.getElementById('toble').style.display = "none"
+                document.getElementById('new').style.display = "block"
+            }
+            function color() {
+                document.querySelector('button').style.boxShadow = "2px 2px 2px yellow"
+            }
+            function greet() {
+                document.querySelector('button').style.display = 'none'
+                document.getElementById('contaner').style.display = "block"
+            }
+        </script>
+</body>
+
+</html>
